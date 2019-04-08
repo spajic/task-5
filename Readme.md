@@ -73,6 +73,8 @@ server {
 - `stack.svg`
 - `lightning.svg`
 
+![Screenshot](https://github.com/spajic/task-5/blob/master/screenshot.png?raw=true)
+
 Картинки из меню: `connect.svg`, `bell.svg`, `menu.svg` – заинлайнены.
 Картинки `stack.svg` и `lightning.svg` – нет.
 
