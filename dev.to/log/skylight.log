@@ -1,0 +1,155 @@
+# Logfile created on 2019-04-06 15:28:49 +0300 by logger.rb/66358
+W, [2019-04-06T15:28:49.479099 #17512]  WARN -- Skylight: [SKYLIGHT] [3.1.4] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
+W, [2019-04-06T15:29:12.124559 #17523]  WARN -- Skylight: [SKYLIGHT] [3.1.4] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
+W, [2019-04-06T15:29:41.905962 #17558]  WARN -- Skylight: [SKYLIGHT] [3.1.4] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
+W, [2019-04-06T15:31:45.448451 #18775]  WARN -- Skylight: [SKYLIGHT] [3.1.4] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
+W, [2019-04-06T15:37:34.054177 #19161]  WARN -- Skylight: [SKYLIGHT] [3.1.4] Running Skylight in development mode. No data will be reported until you deploy your app.
+(To disable this message for all local apps, run `skylight disable_dev_warning`.)
+W, [2019-04-07T14:07:30.150727 #24948]  WARN -- Skylight: Unable to start Instrumenter due to a configuration error: authentication token required
+E, [2019-04-07T14:08:51.826009 #25068] ERROR -- Skylight: trace=8d72927c-c99b-4a85-90d7-b56c94f06852; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T14:08:51.826191 #25068] DEBUG -- Skylight: trace=8d72927c-c99b-4a85-90d7-b56c94f06852; trace is broken
+W, [2019-04-07T14:16:22.172460 #25650]  WARN -- Skylight: Unable to start Instrumenter due to a configuration error: authentication token required
+E, [2019-04-07T14:20:12.533931 #25900] ERROR -- Skylight: trace=2933c0e5-cc24-43fa-b516-e923814db5d6; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T14:20:12.534056 #25900] DEBUG -- Skylight: trace=2933c0e5-cc24-43fa-b516-e923814db5d6; trace is broken
+E, [2019-04-07T14:22:23.820523 #26112] ERROR -- Skylight: trace=4b2864a5-fc32-47e8-8a8b-4e95c3d313f8; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T14:22:23.820674 #26112] DEBUG -- Skylight: trace=4b2864a5-fc32-47e8-8a8b-4e95c3d313f8; trace is broken
+E, [2019-04-07T14:22:31.951626 #26124] ERROR -- Skylight: trace=66b0aec9-d086-4044-9944-aa1668182f59; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T14:22:31.951840 #26124] DEBUG -- Skylight: trace=66b0aec9-d086-4044-9944-aa1668182f59; trace is broken
+E, [2019-04-07T14:22:32.767938 #26124] ERROR -- Skylight: trace=1f66d2a1-55a6-41f1-af6c-cb6d34020947; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+We disabled the Middleware probe but unfortunately, this didn't solve the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T14:22:32.768092 #26124] DEBUG -- Skylight: trace=1f66d2a1-55a6-41f1-af6c-cb6d34020947; trace is broken
+E, [2019-04-07T14:22:32.822417 #26124] ERROR -- Skylight: trace=b6d2bbba-97d8-4915-9d7d-9275cb846884; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+We disabled the Middleware probe but unfortunately, this didn't solve the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T14:22:32.822498 #26124] DEBUG -- Skylight: trace=b6d2bbba-97d8-4915-9d7d-9275cb846884; trace is broken
+E, [2019-04-07T14:22:33.327060 #26124] ERROR -- Skylight: trace=c161d22c-a411-40d1-aa8b-12cc0e1c785f; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+We disabled the Middleware probe but unfortunately, this didn't solve the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T14:22:33.327222 #26124] DEBUG -- Skylight: trace=c161d22c-a411-40d1-aa8b-12cc0e1c785f; trace is broken
+W, [2019-04-07T14:24:04.259845 #26295]  WARN -- Skylight: Unable to start Instrumenter due to a configuration error: authentication token required
+E, [2019-04-07T14:26:11.173024 #26356] ERROR -- Skylight: trace=4e9978b5-a74a-4f04-ae1f-6e58b22b91d7; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T14:26:11.173181 #26356] DEBUG -- Skylight: trace=4e9978b5-a74a-4f04-ae1f-6e58b22b91d7; trace is broken
+E, [2019-04-07T14:36:36.515435 #26368] ERROR -- Skylight: trace=95a80259-415d-463f-bf6a-875cac7c31e2; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T14:36:36.523294 #26368] DEBUG -- Skylight: trace=95a80259-415d-463f-bf6a-875cac7c31e2; trace is broken
+E, [2019-04-07T14:36:37.263356 #26368] ERROR -- Skylight: trace=c4f06fe9-2d4b-47f7-bf55-268a1802b366; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+We disabled the Middleware probe but unfortunately, this didn't solve the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T14:36:37.263458 #26368] DEBUG -- Skylight: trace=c4f06fe9-2d4b-47f7-bf55-268a1802b366; trace is broken
+W, [2019-04-07T14:49:42.999188 #27377]  WARN -- Skylight: Unable to start Instrumenter due to a configuration error: authentication token required
+W, [2019-04-07T14:49:58.995028 #27425]  WARN -- Skylight: Unable to start Instrumenter due to a configuration error: authentication token required
+W, [2019-04-07T14:50:12.169303 #27465]  WARN -- Skylight: Unable to start Instrumenter due to a configuration error: authentication token required
+E, [2019-04-07T14:51:45.431687 #27524] ERROR -- Skylight: trace=1b0fbb2e-61b8-4522-bfaa-5040adb1b40d; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T14:51:45.431885 #27524] DEBUG -- Skylight: trace=1b0fbb2e-61b8-4522-bfaa-5040adb1b40d; trace is broken
+E, [2019-04-07T14:51:47.744964 #27536] ERROR -- Skylight: trace=22800700-e3e2-412a-9f93-033a599a8767; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T14:51:47.745139 #27536] DEBUG -- Skylight: trace=22800700-e3e2-412a-9f93-033a599a8767; trace is broken
+W, [2019-04-07T14:58:11.986535 #27787]  WARN -- Skylight: Unable to start Instrumenter due to a configuration error: authentication token required
+E, [2019-04-07T15:00:47.231238 #27877] ERROR -- Skylight: trace=8ed45410-6dfe-4aa7-a22a-a954016f3696; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T15:00:47.231356 #27877] DEBUG -- Skylight: trace=8ed45410-6dfe-4aa7-a22a-a954016f3696; trace is broken
+E, [2019-04-07T15:01:05.485179 #27889] ERROR -- Skylight: trace=b74aef1f-8202-49ea-8f36-8c6e2838b446; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T15:01:05.485289 #27889] DEBUG -- Skylight: trace=b74aef1f-8202-49ea-8f36-8c6e2838b446; trace is broken
+W, [2019-04-07T15:45:52.545578 #30825]  WARN -- Skylight: Unable to start Instrumenter due to a configuration error: authentication token required
+W, [2019-04-07T15:47:18.240679 #31012]  WARN -- Skylight: Unable to start Instrumenter due to a configuration error: authentication token required
+E, [2019-04-07T15:47:44.067709 #31079] ERROR -- Skylight: trace=cc252aec-0e74-46a9-8012-74b9a39be2ef; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T15:47:44.067830 #31079] DEBUG -- Skylight: trace=cc252aec-0e74-46a9-8012-74b9a39be2ef; trace is broken
+E, [2019-04-07T15:50:22.432540 #31091] ERROR -- Skylight: trace=03dfc668-4c7f-4a5c-9966-ce39ebbad9de; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T15:50:22.432680 #31091] DEBUG -- Skylight: trace=03dfc668-4c7f-4a5c-9966-ce39ebbad9de; trace is broken
+E, [2019-04-07T16:05:02.431623 #572] ERROR -- Skylight: trace=af40cc1d-cd75-4897-8c2d-213706c85172; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T16:05:02.431774 #572] DEBUG -- Skylight: trace=af40cc1d-cd75-4897-8c2d-213706c85172; trace is broken
+E, [2019-04-07T16:05:03.453113 #584] ERROR -- Skylight: trace=1aba5161-baf5-4426-a715-3860bfeb8703; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T16:05:03.453269 #584] DEBUG -- Skylight: trace=1aba5161-baf5-4426-a715-3860bfeb8703; trace is broken
+E, [2019-04-07T16:11:35.668994 #1286] ERROR -- Skylight: trace=f76c57c6-4106-4da0-85f9-4b126f319095; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T16:11:35.669127 #1286] DEBUG -- Skylight: trace=f76c57c6-4106-4da0-85f9-4b126f319095; trace is broken
+E, [2019-04-07T16:11:35.670964 #1224] ERROR -- Skylight: trace=2be545b1-59ee-46a5-89c5-66c50f469cb6; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T16:11:35.671078 #1224] DEBUG -- Skylight: trace=2be545b1-59ee-46a5-89c5-66c50f469cb6; trace is broken
+E, [2019-04-07T16:16:17.692738 #1804] ERROR -- Skylight: trace=bb630711-22b5-4a3f-ab40-7da466f1ab8d; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T16:16:17.692903 #1804] DEBUG -- Skylight: trace=bb630711-22b5-4a3f-ab40-7da466f1ab8d; trace is broken
+E, [2019-04-07T16:16:18.522701 #1819] ERROR -- Skylight: trace=5c71211d-ca2e-4abe-a9ab-106f0550e24c; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T16:16:18.522819 #1819] DEBUG -- Skylight: trace=5c71211d-ca2e-4abe-a9ab-106f0550e24c; trace is broken
+E, [2019-04-07T19:27:08.516810 #9644] ERROR -- Skylight: trace=c1a5bddd-00c2-4c54-b77c-c0f355ee7890; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T19:27:08.524699 #9644] DEBUG -- Skylight: trace=c1a5bddd-00c2-4c54-b77c-c0f355ee7890; trace is broken
+E, [2019-04-07T19:27:08.530041 #9632] ERROR -- Skylight: trace=853e7dc6-9fbf-45e8-983d-e385e387b0f5; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T19:27:08.530166 #9632] DEBUG -- Skylight: trace=853e7dc6-9fbf-45e8-983d-e385e387b0f5; trace is broken
+E, [2019-04-07T21:50:26.361786 #14403] ERROR -- Skylight: trace=6c1450ed-d48a-442b-9476-8dc72f07941f; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T21:50:26.361999 #14403] DEBUG -- Skylight: trace=6c1450ed-d48a-442b-9476-8dc72f07941f; trace is broken
+E, [2019-04-07T21:50:30.403575 #14391] ERROR -- Skylight: trace=70e8fc89-a53d-40cb-b1d2-b6683bd4ef43; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T21:50:30.403782 #14391] DEBUG -- Skylight: trace=70e8fc89-a53d-40cb-b1d2-b6683bd4ef43; trace is broken
+E, [2019-04-07T21:56:20.075907 #14773] ERROR -- Skylight: trace=02ff4b34-9d3e-4431-918d-5b428f61e0a2; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T21:56:20.076035 #14773] DEBUG -- Skylight: trace=02ff4b34-9d3e-4431-918d-5b428f61e0a2; trace is broken
+E, [2019-04-07T21:56:51.178587 #14761] ERROR -- Skylight: trace=85a6a322-79fe-4276-ae91-28b21ffe580a; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T21:56:51.178711 #14761] DEBUG -- Skylight: trace=85a6a322-79fe-4276-ae91-28b21ffe580a; trace is broken
+W, [2019-04-07T22:14:45.743000 #15788]  WARN -- Skylight: Unable to start Instrumenter due to a configuration error: authentication token required
+W, [2019-04-07T22:15:04.560111 #15866]  WARN -- Skylight: Unable to start Instrumenter due to a configuration error: authentication token required
+E, [2019-04-07T22:17:00.429935 #15956] ERROR -- Skylight: trace=5d42134f-da96-4d36-ac3c-b2dc94fd09bd; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T22:17:00.430070 #15956] DEBUG -- Skylight: trace=5d42134f-da96-4d36-ac3c-b2dc94fd09bd; trace is broken
+E, [2019-04-07T22:17:00.441359 #15944] ERROR -- Skylight: trace=b6f3e04c-ce78-4821-82f8-5a27dcadbff5; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T22:17:00.441515 #15944] DEBUG -- Skylight: trace=b6f3e04c-ce78-4821-82f8-5a27dcadbff5; trace is broken
+W, [2019-04-07T22:20:06.608206 #16169]  WARN -- Skylight: Unable to start Instrumenter due to a configuration error: authentication token required
+E, [2019-04-07T22:20:34.805873 #16265] ERROR -- Skylight: trace=3ee35ff8-a5a9-45fd-8fe4-89f400794bbf; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T22:20:34.806177 #16265] DEBUG -- Skylight: trace=3ee35ff8-a5a9-45fd-8fe4-89f400794bbf; trace is broken
+E, [2019-04-07T22:20:34.806018 #16265] ERROR -- Skylight: trace=ae41d379-c663-4e66-a0c0-99f85dd5a370; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+We disabled the Middleware probe but unfortunately, this didn't solve the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T22:20:34.807222 #16265] DEBUG -- Skylight: trace=ae41d379-c663-4e66-a0c0-99f85dd5a370; trace is broken
+E, [2019-04-07T22:20:40.629333 #16253] ERROR -- Skylight: trace=42d45d4b-3552-4801-a349-e27b3cfd1f02; [E0001] Spans were closed out of order. Expected to see 'ServiceWorker::Middleware', but got 'Bullet::Rack' instead.
+Bullet::Rack may be a Middleware that doesn't fully conform to the Rack SPEC. We've disabled the Middleware probe to see if that resolves the issue.
+This request will not be tracked. Please contact support@skylight.io for more information.
+D, [2019-04-07T22:20:40.629473 #16253] DEBUG -- Skylight: trace=42d45d4b-3552-4801-a349-e27b3cfd1f02; trace is broken
