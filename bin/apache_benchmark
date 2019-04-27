@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+require "pathname"
+require "fileutils"
+include FileUtils
+
+# path to your application root.
+APP_ROOT = Pathname.new File.expand_path("..", __dir__)
+server_url = ARGV[0] || "http://localhost:3000/"
+
+def system!(*args)
+  system(*args) || abort("\n== Command #{args} failed ==")
+end
+
+chdir APP_ROOT do
+  system! "ab -n 400 -c 10 -g tmp/ab_out.data #{server_url}"
+  system "gnuplot apache-benchmark.p"
+end
