@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+require 'open-uri'
+patchset = ARGV[0]
+version  = ARGV[1]
+arguments = ARGV[2..-1].join(' ')
+
+raise 'Please specify a patchset' if patchset.nil?
+raise 'Please specify a ruby version' if version.nil?
+
+patches = open("https://raw.githubusercontent.com/skaes/rvm-patchsets/master/patchsets/ruby/#{version}/#{patchset}").read.split("\n").map do |patch|
+  "-p https://raw.githubusercontent.com/skaes/rvm-patchsets/master/patches/ruby/#{version}/#{patch}"
+end.join(" ")
+
+puts "Installing ruby with #{`ruby-install --version`}"
+puts "Available Rubies: #{`ruby-install`}"
+`ruby-install #{patches} #{arguments} ruby #{version}`

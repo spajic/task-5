@@ -1,0 +1,68 @@
+version: "3.7"
+
+services:
+  app:
+    build:
+      context: .
+    stdin_open: true
+    tty: true
+    working_dir: /usr/src/app
+    networks:
+      - courses-network
+    ports:
+      - 127.0.1.1:3000:3000
+    volumes:
+      - ./dev.to:/usr/src/app
+      - rubies:/opt/rubies
+    depends_on:
+      - db
+      - cache
+      - arc
+    environment:
+      RAILS_ENV: local_production
+      DATABASE_URL: "postgres://postgres:password@db/"
+      MEMCACHIER_SERVERS: "cache"
+    entrypoint: /docker-entrypoint.sh
+    command: "bin/startup"
+
+  db:
+    image: postgres:10-alpine
+    networks:
+      courses-network:
+        aliases:
+          - db
+
+  cache:
+    image: memcached:1.5.12-alpine
+    networks:
+      courses-network:
+        aliases:
+          - cache
+
+  arc:
+    image: alpine:latest
+    volumes:
+      - rubies:/cont/rubies
+      - .docker:/host/docker
+    networks:
+      - courses-network
+    working_dir: /cont
+    entrypoint: tar -czf /host/docker/current.tgz rubies/
+
+  pghero:
+    image: ankane/pghero
+    depends_on:
+      - db
+    ports:
+      - 127.0.1.1:8080:8080
+    environment:
+      DATABASE_URL: "postgres://postgres:password@db/task-4_development"
+    networks:
+      - courses-network
+
+networks:
+  courses-network:
+    name: courses-network
+
+volumes:
+  rubies:
