@@ -26,6 +26,7 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 /.docker/*.tgz
+/.docker/certs
 
 /dev.to/*
 !/dev.to/Procfile.local
@@ -40,3 +41,16 @@
 !/dev.to/config/environments/
 /dev.to/config/environments/*
 !/dev.to/config/environments/local_production.rb
+
+!/dev.to/config/initializers
+/dev.to/config/initializers/*
+!/dev.to/config/initializers/carrierwave.rb
+!/dev.to/config/initializers/airbrake.rb
+
+!/dev.to/app
+/dev.to/app/*
+
+!/dev.to/app/helpers
+/dev.to/app/helpers/*
+!/dev.to/app/helpers/application_helper.rb
+

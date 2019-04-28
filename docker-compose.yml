@@ -8,7 +8,9 @@ services:
     tty: true
     working_dir: /usr/src/app
     networks:
-      - courses-network
+      courses-network:
+        aliases:
+          - app
     ports:
       - 127.0.1.1:3000:3000
     volumes:
@@ -16,14 +18,29 @@ services:
       - rubies:/opt/rubies
     depends_on:
       - db
+      - web
       - cache
       - arc
     environment:
-      RAILS_ENV: local_production
+      RAILS_ENV: "local_production"
       DATABASE_URL: "postgres://postgres:password@db/"
       MEMCACHIER_SERVERS: "cache"
+      ENABLE_HTTPS: "true"
+      RAILS_SERVE_STATIC_FILES: "true"
     entrypoint: /docker-entrypoint.sh
     command: "bin/startup"
+
+  web:
+    image: nginx:1.15.12-alpine
+    networks:
+      courses-network:
+        aliases:
+          - web
+    volumes:
+      - ./.docker/certs:/etc/nginx/certs
+      - ./.docker/ssl.conf:/etc/nginx/conf.d/ssl.conf
+    ports:
+      - 127.0.1.1:3443:443
 
   db:
     image: postgres:10-alpine

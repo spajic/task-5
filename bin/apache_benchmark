@@ -12,6 +12,6 @@ def system!(*args)
 end
 
 chdir APP_ROOT do
-  system! "ab -n 400 -c 10 -g tmp/ab_out.data #{server_url}"
+  system! "ab -n 400 -c 10 -g tmp/ab_out.tsv #{server_url}"
   system "gnuplot apache-benchmark.p"
 end

@@ -5,7 +5,7 @@ set terminal png size 1280,720
 set size 1, 1
 
 # The file to write to
-set output "graphs/origin.png"
+set output "graphs/ab_out.png"
 
 # The graph title
 set title "Benchmark testing"
@@ -19,4 +19,4 @@ set grid y
 set datafile separator '\t'
 
 # Plot the data
-plot "tmp/origin.tsv" every ::2 using 5 title 'response time' with boxes
+plot "tmp/ab_out.tsv" every ::2 using 5 title 'response time' with boxes
