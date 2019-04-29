@@ -54,3 +54,15 @@
 /dev.to/app/helpers/*
 !/dev.to/app/helpers/application_helper.rb
 
+!/dev.to/app/controllers
+/dev.to/app/controllers/*
+!/dev.to/app/controllers/stories_controller.rb
+
+!/dev.to/app/views
+/dev.to/app/views/*
+!/dev.to/app/views/layouts
+/dev.to/app/views/layouts/*
+!/dev.to/app/views/layouts/_top_bar.html.erb
+
+
+
