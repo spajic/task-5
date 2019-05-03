@@ -18,7 +18,6 @@ services:
       - rubies:/opt/rubies
     depends_on:
       - db
-      - web
       - cache
       - arc
     environment:
@@ -27,11 +26,15 @@ services:
       MEMCACHIER_SERVERS: "cache"
       ENABLE_HTTPS: "true"
       RAILS_SERVE_STATIC_FILES: "true"
+      RAILS_LOG_TO_STDOUT: "true"
+      RACK_HANDLER: "falcon"
     entrypoint: /docker-entrypoint.sh
     command: "bin/startup"
 
   web:
     image: nginx:1.15.12-alpine
+    depends_on:
+      - app
     networks:
       courses-network:
         aliases:

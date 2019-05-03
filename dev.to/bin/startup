@@ -10,7 +10,11 @@ def system!(*args)
   system(*args) || abort("\n== Command #{args} failed ==")
 end
 
+procfile = 'Procfile.falcon' if ENV['RACK_HANDLER']
+procfile ||=
+  Rails.env.development? ? 'Procfile.dev' : 'Procfile.local'
+
 chdir APP_ROOT do
   puts "== STARTING UP =="
-  system! "bundle exec foreman start -f Procfile.local"
+  system! "bundle exec foreman start -f #{procfile}"
 end

@@ -42,7 +42,7 @@ RUN curl -L -o chruby.tar.gz ${CHRUBY_URL} && \
 
 RUN gem install bundler rb-readline && bundle check || bundle install
 
-RUN apk del gnupg musl-dev linux-headers ruby git && \
+RUN apk del gnupg musl-dev linux-headers ruby && \
   rm -rf /tmp/* /var/cache/apk/*
 
 COPY docker-entrypoint.sh* /

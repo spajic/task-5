@@ -30,6 +30,9 @@
 
 /dev.to/*
 !/dev.to/Procfile.local
+!/dev.to/Procfile.falcon
+!/dev.to/Gemfile
+!/dev.to/Gemfile.lock
 
 !/dev.to/bin
 /dev.to/bin/*
