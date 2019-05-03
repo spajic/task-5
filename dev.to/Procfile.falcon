@@ -1,0 +1,2 @@
+web: bundle exec falcon serve --port 3000 --bind https://0.0.0.0 --hostname localhost.dev
+worker: bundle exec rake jobs:work
